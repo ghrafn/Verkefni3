@@ -1,0 +1,42 @@
+body {
+    background-color: #333;
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(180,51,73,1) 9%, rgba(255,104,130,1) 49%, rgba(180,51,73,1) 89%);
+    color: white;
+}
+.header h1, h2, h3, nav a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: lightskyblue;
+}
+nav a {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover {
+    color: darkblue;
+}
+
+main {
+    background-color: goldenrod;
+}
+
+aside {
+    background-color: darkgoldenrod;
+}
+
+footer {
+    background-color: lawngreen;
+}
+footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}

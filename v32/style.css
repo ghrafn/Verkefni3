@@ -1,0 +1,76 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "haus haus haus haus haus"
+        "valmynd valmynd valmynd valmynd valmynd"
+        "midja midja midja midja haegri "
+        "fotur fotur fotur fotur fotur";
+    padding: 1em 4em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body > * {
+    background-color: white;
+}
+
+.header {
+    grid-area: haus;
+    text-align: center;
+}
+
+.header h1 {
+    font-style: italic;
+    color: darkgoldenrod;
+    font-size: 4em;
+    margin:0.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.navbar {
+    grid-area: valmynd;
+
+}
+
+.left {
+    grid-area: vinstri;
+}
+
+.main {
+    grid-area: midja;
+}
+
+.right {
+    grid-area: haegri;
+}
+
+.footer {
+    grid-area: fotur;
+}
+
+.quote {
+    margin: 1em 2em;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+header,
+nav,
+article,
+main,
+aside,
+footer {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.spaced {
+    justify-content: space-evenly;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+nav a {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}

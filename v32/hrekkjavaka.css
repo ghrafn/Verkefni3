@@ -1,0 +1,37 @@
+body {
+    background-color: #222;
+}
+
+header {
+    background-color: orange;
+}
+
+.header h1,
+h2,
+h3 {
+    color: black;
+    font-family: 'Mansalva', cursive;
+}
+
+nav {
+    background-color: rgb(168, 109, 0);
+}
+
+nav a {
+    color: white;
+    font-family: 'Mansalva', cursive;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background: linear-gradient(90deg, rgba(255, 110, 0, 1) 40%, rgba(255, 149, 0, 1) 80%);
+    border-right: none;
+}
+
+aside {
+    background: linear-gradient(90deg, rgba(255, 149, 0, 1) 16%, rgba(81, 47, 0, 1) 61%);
+    border-left: none;
+}
